@@ -1,0 +1,82 @@
+.modal {
+	background-color: white;
+	width: 600px;
+	height: 450px;
+	margin: 100px auto 0px auto;
+	padding: 15px;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+
+.close-modal-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: white;
+	border: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: gray;
+}
+
+.book-direct-header {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+.book-direct-header h1, h4 {
+	margin: 0px;
+}
+
+.book-direct-header h1 {
+	color: #4b0532;
+}
+
+.rewards-wrapper {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.icon {
+	display: inline-block;
+	text-align: center;
+}
+
+.icon h4, .icon p {
+	margin: 0px;
+}
+
+.icon h4 {
+	margin-top: 10px;
+}
+
+.book-now-footer {
+	margin-top: 30px;
+}
+
+#book-now-button {
+	background-color: #4b0532;
+	border: none;
+	color: white;
+	font-size: 1.2em;
+	padding: 10px 20px;
+	display: block;
+	margin: 0px auto;
+}
+
+#book-now-button:hover {
+	color: pink;
+}
+
+.book-now-footer h3 {
+	color: gray;
+	text-align: center;
+}
+
+.fa { /*arrow icon*/
+	margin-left: 10px;
+/*	color: white;*/
+}
